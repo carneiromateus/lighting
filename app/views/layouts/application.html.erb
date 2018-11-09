@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Lighting</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+<style type="text/css">
+  	#sidebar-toggle{
+  		visibility: hidden;
+  	}
+  	.navbar-toggle{
+  		visibility: hidden;
+  	}
+  </style>
+  <body>
+    <%= yield %>
+  </body>
+</html>
